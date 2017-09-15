@@ -15,6 +15,9 @@ case "$sky" in
     "mostly cloudy"*)
         icon=""
         ;;
+    "overcast"*)
+        icon=""
+        ;;
     "cloudy"*)
         icon=""
         ;;
@@ -22,6 +25,10 @@ case "$sky" in
         icon=$sky
         ;;
 esac
+
+if [ -z "$sky" ]; then
+    icon=""
+fi
 
 echo "$icon  $temp"
 
