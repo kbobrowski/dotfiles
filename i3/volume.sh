@@ -1,3 +1,5 @@
+#!/bin/bash
+
 nsinks=$(pactl list sinks short | cut -c -1)
 
 #input=$(pactl list sinks)
