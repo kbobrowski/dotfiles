@@ -1,0 +1,43 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1060,
+       "width": 945,
+       "x": 10,
+       "y": 10
+    },
+    "name": "WhatsApp",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^Google\\-chrome$",
+        "instance": "^web\\.whatsapp\\.com$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1034,
+       "width": 956,
+       "x": 962,
+       "y": 20
+    },
+    "name": "Messenger",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^Google\\-chrome$",
+        "instance": "^messenger\\.com$"
+       }
+    ],
+    "type": "con"
+}
+

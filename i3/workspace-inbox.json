@@ -1,0 +1,43 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1034,
+       "width": 828,
+       "x": 2,
+       "y": 20
+    },
+    "name": "Inbox – kamil.bobrowski@gmail.com",
+    "percent": 0.8,
+    "swallows": [
+       {
+        "class": "^Google\\-chrome$",
+        "instance": "^inbox\\.google\\.com$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1060,
+       "width": 945,
+       "x": 10,
+       "y": 10
+    },
+    "name": "Google Keep",
+    "percent": 0.2,
+    "swallows": [
+       {
+        "class": "^Google\\-chrome$",
+        "instance": "^keep\\.google\\.com$"
+       }
+    ],
+    "type": "con"
+}
+
