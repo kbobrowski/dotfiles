@@ -30,7 +30,7 @@ font pango:Menlo 11
 # configure i3-gaps
 
 for_window [class="^.*"] border pixel 3
-for_window [class="Ulauncher"] border pixel 0
+for_window [class="Synapse"] border pixel 0
 gaps inner 20
 smart_gaps on
 smart_borders on
@@ -52,7 +52,7 @@ bindsym $mod+Shift+q kill
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 #bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 100 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "SSFD Display"
 #bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 30 -padding 100  -opacity "85" -fond "SSFD Display"
-bindsym $mod+d exec ulauncher
+bindsym $mod+d exec --no-startup-id synapse
 
 # change focus
 bindsym $mod+j focus left
