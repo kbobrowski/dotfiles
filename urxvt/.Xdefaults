@@ -1,0 +1,37 @@
+
+URxvt*font: xft:Menlo:pixelsize=24
+
+URxvt*background: #282A38
+URxvt*foreground: #EFF0EB
+URxvt*color0: #282A38
+URxvt*color1: #FF5C57
+#URxvt*color2: #006622
+URxvt*color2: #5AF78E
+URxvt*color3: #F3F99D
+URxvt*color4: #57C7FF
+URxvt*color5: #FF6AC1
+URxvt*color6: #9AEDFE
+URxvt*color7: #F1F1F0
+URxvt*color8: #709080
+URxvt*color9: #DCA3A3
+URxvt*color10: #C3BF9F
+URxvt*color11: #F0DFAF
+URxvt*color12: #94BFF3
+URxvt*color13: #EC93D3
+URxvt*color14: #93E0E3
+URxvt*color15: #FFFFFF
+
+URxvt.letterSpace: -2
+URxvt.perl-ext-common: default,matcher,tabbedex
+URxvt.url-launcher: firefox
+URxvt.matcher.button: 1
+
+URxvt*scrollBar: false
+URxvt*thickness: 20
+URxvt*scrollBar_right: false
+
+URxvt.tabbed.new-button: false
+URxvt.tabbed.autohide: true
+URxvt.tabbed.reopen-on-close: false
+#URxvt.keysym.Control-t: perl:tabbedex:new_tab
+
