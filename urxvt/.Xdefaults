@@ -1,5 +1,5 @@
 
-URxvt*font: xft:Menlo:pixelsize=24
+URxvt*font: xft:Menlo:pixelsize=18
 
 URxvt*background: #282A38
 URxvt*foreground: #EFF0EB
@@ -21,7 +21,7 @@ URxvt*color13: #EC93D3
 URxvt*color14: #93E0E3
 URxvt*color15: #FFFFFF
 
-URxvt.letterSpace: -2
+#URxvt.letterSpace: -2
 URxvt.perl-ext-common: default,matcher,tabbedex
 URxvt.url-launcher: firefox
 URxvt.matcher.button: 1
