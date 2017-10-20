@@ -30,6 +30,7 @@ esac
 
 if [ -z "$sky" ]; then
     icon=""
+    icon=""
 fi
 
 echo "$icon  $temp"
