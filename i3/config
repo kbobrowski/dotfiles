@@ -245,7 +245,7 @@ bindsym XF86AudioPrev exec playerctl previous
 exec compton
 
 # set wallpaper
-exec_always feh --bg-fill ~/Pictures/wallpaper.png
+exec_always feh --bg-fill ~/Pictures/wallpaper.jpg
 
 # redshift in the evenings
 exec --no-startup-id redshift
