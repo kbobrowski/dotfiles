@@ -103,7 +103,7 @@ map <F10> :w<CR>:!latex %<CR>:!xdvi *.dvi<CR>
 map <F12> :w<CR>:!%:p 
 : "Mapping some keys for proper use
 : imap  <left><del>
-set rnu!
+: "set rnu!
 cd ~/projects
 
 noremap <silent> <Leader>w :call ToggleWrap()<CR>
