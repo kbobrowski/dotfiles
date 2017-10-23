@@ -105,6 +105,10 @@ map <F12> :w<CR>:!%:p
 : imap  <left><del>
 : "set rnu!
 cd ~/projects
+map <F7> :set mouse=a<CR>
+map <F8> :set mouse=r<CR>
+map <F2> :set paste<CR>
+map <F3> :set nopaste<CR>
 
 noremap <silent> <Leader>w :call ToggleWrap()<CR>
 
