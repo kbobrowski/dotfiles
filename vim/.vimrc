@@ -44,7 +44,8 @@ inoremap <C-U> <C-G>u<C-U>
 
 " In many terminal emulators the mouse works just fine, thus enable it.
 if has('mouse')
-  set mouse=a
+   set mouse=a
+"   set mouse=r
 endif
 
 " Switch syntax highlighting on, when the terminal has colors
@@ -98,9 +99,11 @@ endif
 
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 set number
-map <F9> :w<CR>:!python % 
-map <F10> :w<CR>:!latex %<CR>:!xdvi *.dvi<CR>
-map <F12> :w<CR>:!%:p 
+map <F10> :w<CR>:!python % 
+"map <F10> :w<CR>:!latex %<CR>:!xdvi *.dvi<CR>
+map <F9> :w<CR>:!%:p 
+map <F11> :NERDTreeToggle<CR>
+map <F12> :TagbarToggle<CR>
 : "Mapping some keys for proper use
 : imap  <left><del>
 : "set rnu!
@@ -109,6 +112,8 @@ map <F7> :set mouse=a<CR>
 map <F8> :set mouse=r<CR>
 map <F2> :set paste<CR>
 map <F3> :set nopaste<CR>
+
+"autocmd vimenter * NERDTree
 
 noremap <silent> <Leader>w :call ToggleWrap()<CR>
 
@@ -164,9 +169,5 @@ function ToggleWrap()
     endif
 endfunction
 
-call plug#begin('~/.vim/plugged')
-
-Plug 'lervag/vimtex'
-
-call plug#end()
+execute pathogen#infect()
 
