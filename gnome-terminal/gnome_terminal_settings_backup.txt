@@ -1,0 +1,30 @@
+[legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'faf89c83-0243-413e-b425-baa51142c132']
+default='faf89c83-0243-413e-b425-baa51142c132'
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(239,240,235)'
+visible-name='snazzy'
+palette=['rgb(40,42,56)', 'rgb(255,92,87)', 'rgb(90,247,142)', 'rgb(243,249,157)', 'rgb(87,199,255)', 'rgb(255,106,193)', 'rgb(154,237,254)', 'rgb(241,241,240)', 'rgb(127,127,127)', 'rgb(220,163,163)', 'rgb(195,191,159)', 'rgb(240,223,175)', 'rgb(148,191,243)', 'rgb(236,147,211)', 'rgb(147,224,227)', 'rgb(255,255,255)']
+use-system-font=false
+use-transparent-background=false
+use-theme-colors=false
+font='Menlo 12'
+bold-color-same-as-fg=false
+bold-color='rgb(239,240,235)'
+background-color='rgb(40,42,56)'
+
+[legacy/profiles:/:faf89c83-0243-413e-b425-baa51142c132]
+foreground-color='rgb(239,240,235)'
+visible-name='snazzy_mod'
+palette=['rgb(40,42,56)', 'rgb(255,92,87)', 'rgb(90,247,142)', 'rgb(243,249,157)', 'rgb(87,199,255)', 'rgb(255,106,193)', 'rgb(154,237,254)', 'rgb(241,241,240)', 'rgb(127,127,127)', 'rgb(220,163,163)', 'rgb(195,191,159)', 'rgb(240,223,175)', 'rgb(148,191,243)', 'rgb(236,147,211)', 'rgb(147,224,227)', 'rgb(255,255,255)']
+use-system-font=false
+use-transparent-background=false
+use-theme-colors=true
+font='Menlo 12'
+bold-color-same-as-fg=false
+bold-color='rgb(239,240,235)'
+background-color='rgb(46,52,54)'
+
+[legacy]
+schema-version=uint32 3
